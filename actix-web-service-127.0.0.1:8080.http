@@ -1,0 +1,32 @@
+### GET request to example server
+POST http://127.0.0.1:8080/api/v1/test
+Content-Type: application/json
+
+{
+  "message": "a",
+  "data": {}
+}
+###
+
+### GET request to example server
+POST http://127.0.0.1:8080/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "username": "username",
+  "email": "email@gmail.com",
+  "password": "password",
+  "role": "user"
+}
+###
+
+### GET request to example server
+POST http://127.0.0.1:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "email@gmail.com",
+  "password": "password"
+}
+###
+
